@@ -107,7 +107,7 @@ footer {
 @media only screen and (max-width: 600px) {
 
 	#head {
-		font-size: 100;
+		font-size: 40px;
 		margin-top: 30px;
 		margin-left: 10px;
 	}
@@ -124,4 +124,5 @@ footer {
 	border-radius: 50%;
 	margin-left: 10%;
 }
+	
 }
