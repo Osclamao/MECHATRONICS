@@ -1,0 +1,120 @@
+ body {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ 	font-family: arial, helvetica, sans-serif;
+ }
+
+ * {
+ 	font-weight: bolder;
+ }
+
+ .nav-bar {
+	width: 100%;
+	height: 100px;
+	background-color: green;
+	position: fixed;
+	z-index: 1;
+}
+
+img {
+	height: 90px;
+	width: 95px;
+	border-radius: 50%;
+	margin-left: 10%;
+}
+
+#head {
+	color: white;
+	font-size: 300%;
+	margin-top: 10px;
+	margin-left: 5%;
+	position: absolute;
+	display: flexbox;
+	vertical-align: top;
+	font-weight: bolder;
+}
+
+.list {
+	padding-top: 150px;
+}
+
+table, th, td {
+	border: 2px solid;
+	border-collapse: collapse;
+}
+
+table {
+	margin: auto;
+	max-width: 500px;
+	height: 500px;
+	margin-bottom: 50px;
+}
+
+.d {
+	background-color: green;
+}
+
+h1 {
+	text-align: center;
+}
+
+.fuo {
+	color: goldenrod;
+}
+
+.paid {
+	color: green;
+	margin-left: 50px;
+	text-align: center;
+}
+
+.np {
+	text-align: center;	
+	color: red;
+}
+
+.note {
+	color: red;
+}
+
+h2 {
+	margin-left: 10px;
+}
+
+.date {
+	color: green;
+}
+
+.add {
+	text-decoration-line: underline;
+	text-decoration-color: red;
+	text-decoration-thickness: 3px;
+}
+
+.hos {
+	color: green;
+}
+
+footer {
+	background-color: green;
+	color: white;
+	text-align: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+	#head {
+		font-size: 120%;
+		margin-top: 30px;
+		margin-left: 10px;
+	}
+
+	.nav-bar {
+		max-width: 135%;
+		/*z-index: 1;*/
+
+	}
+}
