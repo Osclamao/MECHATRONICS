@@ -107,22 +107,83 @@ footer {
 @media only screen and (max-width: 600px) {
 
 	#head {
-		font-size: 5px;
-		margin-top: 30px;
-		margin-left: 10px;
+		font-size: 100%;
+		margin-top: 15px;
+		margin-left: 0px;
+		font-weight: bolder;
 	}
 
 	.nav-bar {
 		max-width: 100%;
+		height: 65px;
 		/*z-index: 1;*/
 
 	}
-	
+
 	img {
-	height: 50px;
-	width: 55px;
-	border-radius: 50%;
-	margin-left: 10%;
-}
-	
+		margin-top: 5px;
+		height: 50px;
+		width: 55px;
+	}
+
+	.list {
+		padding-top: 100px;
+	}
+
+	#lists {
+		position: absolute;
+		color: white;
+		margin-top: 15px;
+		margin-left: 10px;
+	}
+
+	#det {
+		margin-left: 0;
+	}
+
+	#xmark {
+		position: absolute;
+		color: white;
+		margin-top: 15px;
+		margin-left: 10px;
+		visibility: hidden;
+	}
+
+	#side-panel {
+		height: 100%;
+		width: 75%;
+		position: fixed;
+		border: 1px solid black;
+		background-color: white;
+		padding-left: 0;
+		padding-top: 80px;
+		visibility: hidden;
+	}
+
+	#pic {
+		position: absolute;
+		margin-left: 10px;
+		height: 60px;
+		width: 60px;
+		border-radius: 50%;
+		margin-top: 0px;
+
+	}
+
+	.name {
+		margin-left: 85px;
+	}
+
+	hr {
+		margin-top: 20px;
+	}
+
+	#do-si {
+		padding-top: 10px;
+		padding-left: 30px;
+	}
+
+	.gr {
+		color: green;
+	}
 }
